@@ -14,7 +14,7 @@ function App() {
     <>
       <h1>Groceries Up For Grabs!</h1>
       <ShoppingForm generateList={generateList}></ShoppingForm>
-      <ShoppingForm items={shoppingListItems}></ShoppingForm>
+
     </>
   );
 }
