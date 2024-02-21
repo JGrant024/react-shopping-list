@@ -23,7 +23,7 @@ const ShoppingForm = ({ generateList }) => {
     <>
       <form onSubmit={handleSubmit}>
         <label>
-          Add to the List 1
+          1st Grocery item
           <input
             type="text"
             name="firstGroceryItem"
@@ -32,7 +32,7 @@ const ShoppingForm = ({ generateList }) => {
           />
         </label>
         <label>
-          Add to the List2
+          2nd Grocery item
           <input
             type="text"
             name="secondGroceryItem"
@@ -41,7 +41,7 @@ const ShoppingForm = ({ generateList }) => {
           />
         </label>
         <label>
-          Add to the List 3
+          3rd Grocery item
           <input
             type="text"
             name="thirdGroceryItem"

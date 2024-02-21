@@ -1,4 +1,7 @@
+import React from "react";
+
 import { useState } from "react";
+
 
 const ShoppingList = ({ items }) => {
     const { item1, item2, item3 } = items;
